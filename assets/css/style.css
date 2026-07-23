@@ -27,3 +27,7 @@
     /* 云门寺实景背景：叠加浅色遮罩，以保持管理内容清晰可读。 */
     body { background:linear-gradient(rgba(245,242,235,.86),rgba(245,242,235,.9)),url("../images/yunmen-temple-background.jpeg") center/cover fixed no-repeat; }
     .login-screen { background:linear-gradient(rgba(245,242,235,.82),rgba(245,242,235,.9)),url("../images/yunmen-temple-background.jpeg") center/cover no-repeat; }
+
+    /* 以云门寺云纹替换原有轮盘图标。 */
+    .brand-mark { display:inline-block; width:34px; height:24px; margin-right:6px; background:url("../images/cloud-pattern.svg") center/contain no-repeat; color:transparent; font-size:0; vertical-align:-4px; }
+    .login-mark { width:82px; height:52px; margin:0 auto 8px; background:url("../images/cloud-pattern.svg") center/contain no-repeat; color:transparent; font-size:0; }
